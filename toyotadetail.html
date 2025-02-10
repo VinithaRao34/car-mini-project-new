@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Details</title>
+    <link rel="stylesheet" href="m.css">
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            /* Changed background color to grey */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Add spacing between the icons and text */
+        
+        .feature-list li {
+            margin-bottom: 15px;
+            /* Adds space between list items */
+            font-size: 18px;
+            /* Increases font size for readability */
+        }
+        
+        .feature-list li i {
+            margin-right: 15px;
+            /* Increased space between the icon and the text */
+            font-size: 24px;
+            /* Larger icon size */
+            color: #007BFF;
+            /* Optional color for the icons */
+        }
+        
+        .hero-section {
+            background-color: #ddd;
+            /* Slightly darker grey for hero section */
+            padding: 50px;
+            text-align: center;
+        }
+        
+        .hero-text h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        
+        .car-details-container,
+        .key-features-container,
+        .car-images-gallery,
+        .video-section,
+        .availability,
+        .reviews-section,
+        .user-feedback {
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            /* White background for sections to make them stand out */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .highlight {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        /* Scroll-to-Top Button Styling */
+        
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            display: none;
+            /* Hidden initially */
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .scroll-to-top:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Full Page Image with Car Name -->
+    </head>
+
+    <body>
+        <div class="hero">
+            <img src="https://img.philkotse.com/2021/07/13/KjJYY7r3/honda-city-s-mt-taffeta-white-1-be3c.jpg" alt="Hero Image">
+            <div class="content">
+                <h1>HONDA CITY</h1>
+                <p>Your success starts here</p>
+            </div>
+        </div>
+    </body>
+    </head>
+
+
+    <!-- Car Details Section -->
+    <div class="car-details-container">
+        <div class="car-title">Honda City</div>
+
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Fuel Type</td>
+                <td class="highlight">Petrol</td>
+            </tr>
+            <tr>
+                <td>Engine Displacement</td>
+                <td>1498 cc</td>
+            </tr>
+            <tr>
+                <td>Max Power</td>
+                <td>119 bhp</td>
+            </tr>
+            <tr>
+                <td>Seating Capacity</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Boot Space</td>
+                <td>510 L</td>
+            </tr>
+            <tr>
+                <td>No. of Cylinders</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Max Torque</td>
+                <td>145 Nm</td>
+            </tr>
+            <tr>
+                <td>Transmission Type</td>
+                <td>Manual</td>
+            </tr>
+            <tr>
+                <td>Body Type</td>
+                <td>Sedan</td>
+            </tr>
+            <tr>
+                <td>Service Cost</td>
+                <td>₹4,000 per year (approx.)</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Key Features Section with Font Awesome Icons -->
+    <div class="key-features-container">
+        <div class="key-features-title">Key Features of Honda City</div>
+        <ul class="feature-list">
+            <li><i class="fa-solid fa-car"></i> Power Steering</li>
+            <li><i class="fas fa-car-crash"></i> Anti-lock Braking System</li>
+            <li><i class="fa fa-airbnb"></i> <span>Driver Airbag</span></li>
+            <li><i class="fas fa-sun"></i> Automatic Climate Control</li>
+            <li><i class="fas fa-cogs"></i> Multi-function Steering Wheel</li>
+            <li><i class="fas fa-window-maximize"></i> Power Window Front</li>
+            <li><i class="fas fa-snowflake"></i> Air Conditioner</li>
+            <li><i class="fas fa-car-crash"></i> Passenger Airbag</li>
+            <li><i class="fas fa-tachometer-alt"></i> Alloy Wheels</li>
+        </ul>
+    </div>
+
+    <div class="car-images-gallery">
+        <h3>Gallery</h3>
+        <div class="gallery-images">
+            <a href="hondacity.jpg" target="_blank"><img src="your-image1.jpg"></a>
+            <a href="your-image2.jpg" target="_blank"><img src="your-image2.jpg"></a>
+            <a href="your-image3.jpg" target="_blank"><img src="your-image3.jpg"></a>
+            <a href="your-image4.jpg" target="_blank"><img src="your-image4.jpg"></a>
+            <a href="your-image5.jpg" target="_blank"><img src="your-image5.jpg"></a>
+        </div>
+    </div>
+
+    <style>
+        .gallery-images img {
+            width: 100px;
+            cursor: pointer;
+            margin: 5px;
+            transition: transform 0.3s;
+        }
+        
+        .gallery-images img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- YouTube Video Embed -->
+    <div class="video-section">
+        <h2>Watch the Honda City in Action!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KeYpJUADsuQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Availability Section with Logo -->
+    <div class="availability">
+        <h3>Available Now</h3>
+        <a href="https://maps.app.goo.gl/4R3KVTWaodRDCZcU9" target="_blank">
+            <img src="your-logo-image-url.png" alt="Availability Icon" class="availability-icon">
+        </a>
+        <p class="highlight">Order Now at your nearest Honda Dealership!</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Reviews Section with Star Rating -->
+    <div class="reviews-section">
+        <h3>User Reviews</h3>
+        <div class="review">
+            <p><strong>John Doe</strong> (5/5 stars)</p>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"The Honda City is reliable, efficient, and comfortable. A fantastic sedan for daily use!"</p>
+        </div>
+        <div class="review">
+            <p><strong>Jane Smith</strong> (4/5 stars)</p>
+            <div class="stars">⭐⭐⭐⭐☆</div>
+            <p>"Good value for money, but could have a bit more interior space. Still, great for city driving."</p>
+        </div>
+        <div class="review">
+            <p><strong>Michael Lee</strong> (4/5 stars)</p>
+            <div class="stars">⭐⭐⭐⭐☆</div>
+            <p>"A comfortable ride, though the fuel economy could be improved. Overall, happy with the purchase."</p>
+        </div>
+    </div>
+
+    <!-- User Opinion Section -->
+    <div class="user-feedback">
+        <h3>Share Your Opinion</h3>
+        <form action="#" method="post">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="opinion">Your Opinion:</label>
+            <textarea id="opinion" name="opinion" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Scroll-to-Top Button -->
+    <button class="scroll-to-top" id="scrollToTopBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        // Show or hide the button when scrolling
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                scrollToTopBtn.style.display = "flex";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        });
+
+        // Scroll to the top smoothly when the button is clicked
+        scrollToTopBtn.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+
+</html>
